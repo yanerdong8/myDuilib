@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="381,176" sizebox="4,4,6,6" caption="0,0,0,30" mininfo="100,50">
+    <Font name="微软雅黑" size="15" bold="false" italic="false" />
+    <VerticalLayout width="470" height="170" bordercolor="#FF0366BB" inset="1,1,1,1">
+        <HorizontalLayout width="379" height="32" bkimage="title_bkg.png">
+            <HorizontalLayout width="318" height="37">
+                <Label name="titleText" text="升级工具" width="71" height="31" textpadding="4,0,0,0" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+            <HorizontalLayout width="65" height="37">
+                <Button name="minbtn" tooltip="最小化" width="29" height="24" padding="0,5,0,0" maxheight="24" maxwidth="29" relativepos="0,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_dlg_min.png&apos; source=&apos;0,0,29,24&apos;" hotimage="file=&apos;sys_dlg_min.png&apos; source=&apos;29,0,58,24&apos;" />
+                <Button name="closebtn" tooltip="关闭" width="29" height="24" padding="0,5,0,0" maxheight="24" maxwidth="29" relativepos="0,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_dlg_close.png&apos; source=&apos;0,0,29,24&apos;" hotimage="file=&apos;sys_dlg_close.png&apos; source=&apos;29,0,58,24&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <VerticalLayout name="BrowserClientLayout" width="379" height="143" bkimage="client_bkg.png">
+            <Progress name="ProgressDown" float="true" pos="35,80,0,0" width="309" height="18" bkimage="progress_back.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progress_fore.png" min="0" max="100" value="0" hor="true" />
+            <Text name="TextName" text="开票软件升级更新中，请稍后……" float="true" pos="37,21,0,0" width="304" height="31" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="bottomwrap" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

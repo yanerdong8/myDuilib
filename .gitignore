@@ -4,3 +4,6 @@
 
 *.opensdf
 *.ipch
+/DuiLib/Build
+/Debug
+/Lib
